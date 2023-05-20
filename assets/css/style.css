@@ -108,7 +108,7 @@
 }
 .about{
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: white;
 }
 .box-title-about{
@@ -174,18 +174,188 @@
 .email-description-about:hover{
     color: rgb(64, 160, 160);
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.icon-down-main-img{
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    font-size: 65px !important;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+.resume{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.main-box-resume{
+    direction: rtl;
+}
+.resume-education{
+    width: 40%;
+    height: auto;
+    margin-right: 20%;
+    text-align: center;
+}
+.resume-experience{
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+.box-resume-education1{
+    width: 90%;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    margin-top: 30px;
+}
+.year-resume{
+    color: white;
+    background-color: rgba(101, 175, 175, 0.733);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.6s;
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+.text-box-resume{
+    text-align: justify;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.514);
+    width: 90%;
+    margin: auto;
+}
+.description-box-resume{
+    color: red;
+}
+.my-skill{
+    width: 100%;
+    height: auto;
+    direction: rtl;
+    padding-right: 25%;
+   
+}
+.progress-bar-html{
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+.progress-bar-css{
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+.progress-bar-js{
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+.box1-skill{
+    width: 100%;
+    margin: 10px;
+}
+.box2-skill{
+    width: 100%;
+    margin: 10px;
+}
+.bar-html{
+    width: 60%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+.bar-css{
+    width: 50%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+.bar-js{
+    width: 40%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+.progress-bar-jq{
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+.bar-jq{
+    width: 60%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+.progress-bar-npm{
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+.bar-npm{
+    width: 50%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+.progress-bar-react{
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+.bar-react{
+    width: 40%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+.box-download-CV{
+    border: 1px solid rgb(51, 51, 51);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.box-download-CV:hover{
+    background-color: rgb(51, 51, 51);
+}
+.box-download-CV:hover .download-CV{
+    color: white;
+}
+.box-download-CV:hover .icon-download-CV{
+    color: white;
+}
+.download-CV{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    transition: 0.6s;
+}
+.icon-download-CV{
+    color: rgb(51, 51, 51);
+    transition: 0.6s;
+    position: relative;
+    top: 5px;
+}
 
 
 
