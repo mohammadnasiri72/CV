@@ -130,8 +130,17 @@ iconLeftSliderPortfolio.addEventListener("click", function () {
     }
 })
 
-
-
+var test = document.querySelectorAll(".home-menu")
+test.forEach(function(ev , i){
+    
+    ev.addEventListener("click" , function(){
+        test.forEach(function(e){
+            e.style.backgroundColor = "transparent"
+        })
+        ev.style.backgroundColor = "blue"
+        
+    })
+})
 
 
 

@@ -438,7 +438,6 @@ body{
     width: 90%;
     margin: auto;
     overflow: hidden;
-    background-color: aqua;
 
 }
 .icon-right-slider-portfolio{
@@ -658,4 +657,124 @@ body{
 .portfolio5:hover .text-project {
     opacity: 1;
     visibility: visible;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    direction: rtl;
+}
+.contact-address{
+    width: 20%;
+    height: auto;
+    margin-right: 22%;
+}
+.icon-call{
+    color: aqua;
+    font-size: 35px !important;
+    position: relative;
+    top: 10px;
+}
+.num-call{
+    font-size: 20px;
+}
+.mail-text{
+    cursor: pointer;
+}
+.follow-me{
+    margin-top: 20px;
+}
+.icon-footer{
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.icon-footer:hover{
+    color: aqua;
+}
+.contact-massage{
+    width: 55%;
+    height: auto;
+    margin-right: 100px;
+}
+.in-name{
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.26);
+    border: none;
+    box-shadow: 0 0 1px 1px;
+    margin: 10px;
+}
+.t-area{
+    width: 82%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1px 1px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.26);
+}
+.link-massage{
+    padding: 10px 20px;
+    background-color: rgb(66, 168, 168);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+
+}
+.link-massage:hover{
+    color: white;
+    background-color: rgb(45, 80, 80);
+}
+.p-link-massage{
+    position: relative;
+    right: 30%;
+    top: 20px;
+}
+.notefoot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.text-notefoot{
+    font-size: 20px;
+}
+.text-notefoot-name{
+    color: rgb(67, 177, 177);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.text-notefoot-name:hover{
+    color: rgb(61, 121, 121);
+}
+.text2-notefoot{
+    font-size: 20px;
+    border-right: 1px solid black;
+    margin: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.text2-notefoot:hover{
+    color: rgb(83, 182, 182);
+}
+.text3-notefoot{
+    font-size: 20px;
+    margin: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.text3-notefoot:hover{
+    color: rgb(83, 182, 182);
 }
