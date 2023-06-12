@@ -778,3 +778,52 @@ body{
 .text3-notefoot:hover{
     color: rgb(83, 182, 182);
 }
+
+
+
+
+
+
+.mas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 546546546;
+    transition: 1s;
+    overflow: hidden;
+}
+.txt-mas{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 35px;
+    transition: 1s;
+}
+.txt-mas2{
+    color: red;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    font-size: 35px;
+    transition: 2s;
+    animation-delay: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -143,8 +143,19 @@ test.forEach(function(ev , i){
 })
 
 
+var mas = document.querySelector(".mas")
+var txt = document.querySelector(".txt-mas")
+var txt2 = document.querySelector(".txt-mas2")
 
-
+setTimeout(function(e){
+    mas.style.bottom = "100%"
+    txt.style.display = "none"
+    txt2.style.display = "none"
+} , 2000)
+setTimeout(function(e){
+    txt.style.top = "-100%"
+    txt2.style.top = "-100%"
+} , 1500)
 
 
 
