@@ -129,33 +129,109 @@ iconLeftSliderPortfolio.addEventListener("click", function () {
         iconLeftSliderPortfolio.style.opacity = "0.2"
     }
 })
-
-var test = document.querySelectorAll(".home-menu")
-test.forEach(function(ev , i){
-    
-    ev.addEventListener("click" , function(){
-        test.forEach(function(e){
-            e.style.backgroundColor = "transparent"
-        })
-        ev.style.backgroundColor = "blue"
-        
-    })
-})
-
-
 var mas = document.querySelector(".mas")
 var txt = document.querySelector(".txt-mas")
 var txt2 = document.querySelector(".txt-mas2")
 
-setTimeout(function(e){
+setTimeout(function (e) {
     mas.style.bottom = "100%"
     txt.style.display = "none"
     txt2.style.display = "none"
-} , 2000)
-setTimeout(function(e){
+}, 2000)
+setTimeout(function (e) {
     txt.style.top = "-100%"
     txt2.style.top = "-100%"
-} , 1500)
+}, 1500)
+
+
+var dokmeh = document.querySelector(".form-check-input")
+var txtDokmeh = document.querySelector(".form-check-label")
+var txtWhite = document.querySelectorAll(".white")
+var bgDoodi = document.querySelectorAll(".bg-doodi")
+var blackLight = document.querySelectorAll(".black-light")
+var bgBlackLight = document.querySelectorAll(".bg-black-light")
+
+var flagDokmeh = 0
+dokmeh.addEventListener("click", function () {
+    if (flagDokmeh == 0) {
+        document.body.style.backgroundColor = "white"
+        txtDokmeh.innerHTML = "روشن"
+        txtWhite.forEach(function (ev) {
+            ev.classList.remove("white")
+            ev.classList.add("doodi")
+        })
+        bgDoodi.forEach(function (ev) {
+            ev.classList.add("bg-white")
+            ev.classList.remove("bg-doodi")
+        })
+        blackLight.forEach(function (ev) {
+            ev.classList.add("white-light")
+            ev.classList.remove("black-light")
+        })
+        bgBlackLight.forEach(function (ev) {
+            ev.classList.add("bg-white-light")
+            ev.classList.remove("bg-black-light")
+        })
+        flagDokmeh = 1
+    } else if (flagDokmeh == 1) {
+        document.body.style.backgroundColor = "rgb(27, 27, 27)"
+
+        txtDokmeh.innerHTML = "تاریک"
+        txtWhite.forEach(function (ev) {
+            ev.classList.remove("doodi")
+            ev.classList.add("white")
+        })
+        bgDoodi.forEach(function (ev) {
+            ev.classList.add("bg-doodi")
+            ev.classList.remove("bg-white")
+        })
+        blackLight.forEach(function (ev) {
+            ev.classList.add("black-light")
+            ev.classList.remove("white-light")
+        })
+        bgBlackLight.forEach(function (ev) {
+            ev.classList.remove("bg-white-light")
+            ev.classList.add("bg-black-light")
+        })
+
+
+
+        flagDokmeh = 0
+    }
+})
+
+
+var palet = document.querySelector(".palet")
+var boxColor = document.querySelector(".box-color")
+var iconClosePalet = document.querySelector(".icon-close-palet")
+palet.addEventListener("click" , function(){
+    boxColor.style.transform = "scale(1)"
+})
+iconClosePalet.addEventListener("click" , function(){
+    boxColor.style.transform = "scale(0)"
+})
+
+var colorPalet = document.querySelectorAll(".color-palet")
+colorPalet.forEach(function(ev){
+    ev.addEventListener("click" , function(){
+        var setColor = ev.getAttribute("data-color")
+        var blu = document.querySelectorAll(".blue")
+        var bgBlu = document.querySelectorAll(".bg-blue")
+        blu.forEach(function(ev){
+            ev.style.color = setColor
+            ev.style.borderColor = setColor
+        })
+        bgBlu.forEach(function(ev){
+            ev.style.backgroundColor = setColor
+        })
+    })
+    
+})
+
+
+
+
+
 
 
 

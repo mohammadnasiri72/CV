@@ -5,6 +5,8 @@
 }
 body{
     overflow-x: hidden;
+    background-color: rgb(27, 27, 27);
+    transition: 0.6s;
 }
 
 .main {
@@ -24,7 +26,7 @@ body{
 .fix-menu {
     width: 20%;
     height: 100vh;
-    background-color: rgb(46, 46, 46);
+    
     position: fixed;
     right: 0;
     z-index: 10;
@@ -36,13 +38,12 @@ body{
     left: 50%;
     transform: translateX(-50%);
     top: 50px;
-    border: solid 10px rgba(0, 255, 255, 0.418);
+    border: solid 10px;
     border-radius: 50% 20%;
     cursor: pointer;
 }
 
 .my-name {
-    color: aqua;
     text-align: center;
     margin-top: 50px;
     font-weight: 200;
@@ -51,20 +52,17 @@ body{
 }
 
 .title1-main-img {
-    color: white;
     text-align: center;
     margin-top: 100px;
     font-size: 25px;
 }
 
 .title2-main-img {
-    color: aqua;
     text-align: center;
     font-size: 65px;
 }
 
 .title3-main-img {
-    color: white;
     text-align: center;
     font-size: 25px;
 }
@@ -75,9 +73,8 @@ body{
 }
 
 .link-main-img {
-    color: aqua;
     text-decoration: none;
-    border: 1px solid aqua;
+    border: 1px solid;
     padding: 10px 30px;
     border-radius: 20px;
     transition: 0.6s;
@@ -85,7 +82,7 @@ body{
 
 .link-main-img:hover {
     color: rgb(58, 58, 58);
-    background-color: aqua;
+    background-color: rgb(83, 123, 255);
 }
 
 .p-home-menu {
@@ -95,13 +92,12 @@ body{
 
 .home-menu {
     text-decoration: none;
-    color: white;
     transition: 0.6s;
     font-size: 20px;
 }
 
 .home-menu:hover {
-    color: aqua;
+    color: rgb(83, 123, 255);
 }
 
 .p-about-menu {
@@ -110,7 +106,6 @@ body{
 }
 
 .icon-social-networks {
-    color: white;
     font-size: 25px;
     margin: 5px;
     cursor: pointer;
@@ -125,13 +120,13 @@ body{
 }
 
 .icon-social-networks:hover {
-    color: aqua;
+    color: rgb(83, 123, 255);
 }
 
 .about {
     width: 100%;
     height: 450px;
-    background-color: white;
+    transition: 0.6s;
 }
 
 .box-title-about {
@@ -143,7 +138,6 @@ body{
 .title-about {
     font-size: 85px;
     font-weight: 900;
-    color: rgba(70, 70, 70, 0.075);
     position: absolute;
     left: 40%;
     transform: translateX(-50%) scaleX(1.5);
@@ -151,7 +145,6 @@ body{
 }
 
 .title-about2 {
-    color: black;
     position: absolute;
     left: 40%;
     transform: translateX(-50%) scaleX(1.2);
@@ -182,13 +175,8 @@ body{
     font-size: 27px;
 }
 
-.name-span-text-about {
-    color: rgb(92, 209, 209);
-}
-
 .text-about-text {
     text-align: justify;
-    color: rgba(0, 0, 0, 0.466);
     margin-top: 10px;
 }
 
@@ -199,12 +187,7 @@ body{
 
 .email-description-about {
     text-decoration: none;
-    color: rgb(89, 212, 212);
     transition: 0.6s;
-}
-
-.email-description-about:hover {
-    color: rgb(64, 160, 160);
 }
 
 .icon-down-main-img {
@@ -212,7 +195,7 @@ body{
     position: absolute;
     left: 40%;
     top: 90%;
-    font-size: 65px !important;
+    font-size: 65px;
     animation-iteration-count: infinite;
     cursor: pointer;
 }
@@ -220,7 +203,7 @@ body{
 .resume {
     width: 100%;
     height: auto;
-    background-color: white;
+    transition: 0.6s;
 }
 
 .main-box-resume {
@@ -243,15 +226,15 @@ body{
 .box-resume-education1 {
     width: 90%;
     height: auto;
-    border: 1px solid black;
     margin: auto;
     position: relative;
     margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.151);
 }
 
 .year-resume {
     color: white;
-    background-color: rgba(101, 175, 175, 0.733);
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.6s;
@@ -263,22 +246,18 @@ body{
 .text-box-resume {
     text-align: justify;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.514);
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
 }
 
-.description-box-resume {
-    color: red;
-}
+
 
 .my-skill {
     width: 100%;
     height: auto;
     direction: rtl;
     padding-right: 25%;
-
 }
 
 .progress-bar-html {
@@ -315,7 +294,6 @@ body{
 .bar-html {
     width: 60%;
     height: 15px;
-    background-color: aqua;
     border-radius: 5px 10px 10px 5px;
     transition: 1.5s;
 }
@@ -323,7 +301,6 @@ body{
 .bar-css {
     width: 50%;
     height: 15px;
-    background-color: aqua;
     border-radius: 5px 10px 10px 5px;
     transition: 1.5s;
 }
@@ -331,7 +308,6 @@ body{
 .bar-js {
     width: 40%;
     height: 15px;
-    background-color: aqua;
     border-radius: 5px 10px 10px 5px;
     transition: 1.5s;
 }
@@ -346,7 +322,6 @@ body{
 .bar-jq {
     width: 60%;
     height: 15px;
-    background-color: aqua;
     border-radius: 5px 10px 10px 5px;
     transition: 1.5s;
 }
@@ -361,7 +336,6 @@ body{
 .bar-npm {
     width: 50%;
     height: 15px;
-    background-color: aqua;
     border-radius: 5px 10px 10px 5px;
     transition: 1.5s;
 }
@@ -376,7 +350,6 @@ body{
 .bar-react {
     width: 40%;
     height: 15px;
-    background-color: aqua;
     border-radius: 5px 10px 10px 5px;
     transition: 1.5s;
 }
@@ -396,9 +369,7 @@ body{
     z-index: 10;
 }
 
-.box-download-CV:hover {
-    background-color: rgb(51, 51, 51);
-}
+
 
 .box-download-CV:hover .download-CV {
     color: white;
@@ -410,12 +381,10 @@ body{
 
 .download-CV {
     text-decoration: none;
-    color: rgb(51, 51, 51);
     transition: 0.6s;
 }
 
 .icon-download-CV {
-    color: rgb(51, 51, 51);
     transition: 0.6s;
     position: relative;
     top: 5px;
@@ -425,6 +394,7 @@ body{
     width: 100%;
     height: auto;
     margin-top: 50px;
+    transition: 0.6s;
 }
 
 .box-portfolio {
@@ -446,7 +416,7 @@ body{
     top: 50%;
     z-index: 5;
     color: rgba(255, 255, 255, 0.658);
-    font-size: 35px !important;
+    font-size: 35px;
     background-color: rgb(73, 73, 73);
     border-radius: 50%;
     padding: 5px;
@@ -462,7 +432,7 @@ body{
     top: 50%;
     z-index: 5;
     color: rgba(255, 255, 255, 0.658);
-    font-size: 35px !important;
+    font-size: 35px;
     background-color: rgb(73, 73, 73);
     border-radius: 50%;
     padding: 5px;
@@ -663,6 +633,7 @@ body{
     height: auto;
     margin-top: 50px;
     direction: rtl;
+    transition: 0.6s;
 }
 .contact-address{
     width: 20%;
@@ -670,8 +641,7 @@ body{
     margin-right: 22%;
 }
 .icon-call{
-    color: aqua;
-    font-size: 35px !important;
+    font-size: 35px;
     position: relative;
     top: 10px;
 }
@@ -704,10 +674,10 @@ body{
     border-radius: 10px;
     padding-right: 20px;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.26);
     border: none;
-    box-shadow: 0 0 1px 1px;
+    box-shadow: 0 0 3px 0px rgb(82, 82, 82);
     margin: 10px;
+    outline: none;
 }
 .t-area{
     width: 82%;
@@ -715,24 +685,22 @@ body{
     margin: 10px;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 0 1px 1px;
+    box-shadow: 0 0 3px 0px rgb(82, 82, 82);
     font-size: 20px;
     padding-right: 20px;
     padding-top: 10px;
-    color: rgba(0, 0, 0, 0.26);
+    outline: none;
 }
 .link-massage{
     padding: 10px 20px;
-    background-color: rgb(66, 168, 168);
     border-radius: 10px;
     text-decoration: none;
-    color: white;
     transition: 0.6s;
 
 }
 .link-massage:hover{
     color: white;
-    background-color: rgb(45, 80, 80);
+    background-color: rgb(98, 117, 204);
 }
 .p-link-massage{
     position: relative;
@@ -745,17 +713,17 @@ body{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    transition: 0.6s;
 }
 .text-notefoot{
     font-size: 20px;
 }
 .text-notefoot-name{
-    color: rgb(67, 177, 177);
     cursor: pointer;
     transition: 0.6s;
 }
 .text-notefoot-name:hover{
-    color: rgb(61, 121, 121);
+    color: rgb(98, 117, 204);
 }
 .text2-notefoot{
     font-size: 20px;
@@ -766,7 +734,7 @@ body{
     transition: 0.6s;
 }
 .text2-notefoot:hover{
-    color: rgb(83, 182, 182);
+    color: rgb(98, 117, 204);
 }
 .text3-notefoot{
     font-size: 20px;
@@ -776,7 +744,7 @@ body{
     transition: 0.6s;
 }
 .text3-notefoot:hover{
-    color: rgb(83, 182, 182);
+    color: rgb(98, 117, 204);
 }
 
 
@@ -804,7 +772,7 @@ body{
     transition: 1s;
 }
 .txt-mas2{
-    color: red;
+    color: rgb(83, 123, 255);
     position: absolute;
     left: 35%;
     top: 50%;
@@ -815,15 +783,132 @@ body{
 
 
 
+.white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+
+.blue{
+    color: rgb(83, 123, 255);
+    border-color: rgb(83, 123, 255);
+}
+.bg-blue{
+    background-color: rgb(83, 123, 255);
+}
+.doodi{
+    color: rgb(27, 27, 27);
+}
+.bg-doodi{
+    background-color: rgb(27, 27, 27);
+}
+
+.black-light{
+    color: rgb(39, 39, 39);
+}
+.bg-black-light{
+    background-color: rgb(46, 46, 46);
+}
+.bg-white-light{
+    background-color: rgb(108, 108, 108);
+}
+.white-light{
+    color: rgb(212, 212, 212);
+}
+.form-check{
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.form-check-input{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.form-check-label{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.form-check-label:hover{
+    color: rgb(83, 123, 255);
+}
 
 
+.palet{
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.6s;
+    margin-top: 20px;
+}
+.palet:hover{
+    color: rgb(83, 123, 255);
+}
+.box-color{
+    width: 150px;
+    height: 150px;
+    background: #bdb7b7;
+    position: absolute;
+    transform: scale(0);
+    transition: 0.6s;
+    left: -10%;
+    top: 70%;
+}
 
+.icon-close-palet{
+    position: relative;
+    left: -50%;
+    transform: translateX(50%);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.icon-close-palet:hover{
+    color: white;
+}
 
-
-
-
-
-
-
+.color-palet{
+    
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.color1-palet:hover{
+    box-shadow: 0 0 2px 0 rgb(0, 0, 0);
+}
+.color-palet1{
+    background-color: blueviolet;
+}
+.color-palet2{
+    background-color: brown;
+}
+.color-palet3{
+    background-color: chartreuse;
+}
+.color-palet4{
+    background-color: chocolate;
+}
+.color-palet5{
+    background-color: darkblue;
+}
+.color-palet6{
+    background-color: darkgoldenrod;
+}
+.color-palet7{
+    background-color: green;
+}
+.color-palet8{
+    background-color: lightseagreen;
+}
+.color-palet9{
+    background-color: red;
+}
+.color-palet10{
+    background-color: sienna;
+}
 
 
